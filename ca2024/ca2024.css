@@ -154,7 +154,6 @@ q{
 table,th,td{
     border:solid 1px black;
     margin:10px auto;
-    width:100%;
     caption-side: bottom;
     break-inside: avoid-column;
     -webkit-column-break-inside: avoid;

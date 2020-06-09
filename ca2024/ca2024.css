@@ -24,6 +24,7 @@ article,div.artigo{
     float:left;
     border-right:1px solid black;
     border-bottom:solid 1px black;
+    max-width:100%;
 }
 
 div.artigo div.conjunto{

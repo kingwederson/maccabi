@@ -159,6 +159,7 @@ table,th,td{
     -moz-column-break-inside: avoid;
     -o-column-break-inside:avoid;
     -ms-column-break-inside:avoid;
+    max-width:100%;
 }
 a{
     text-decoration: none;

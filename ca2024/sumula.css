@@ -50,3 +50,8 @@ img.assistencia{
 img.gol{
     content: url("https://www.shareicon.net/data/256x256/2015/09/21/644290_ball_512x512.png”>");
 }
+tr.sempre th{
+    position:sticky;
+    top:0px;
+    background:white;
+}

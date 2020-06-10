@@ -161,6 +161,9 @@ table,th,td{
     -ms-column-break-inside:avoid;
     max-width:100%;
 }
+div.tabela{
+    overflow: scroll;
+}
 a{
     text-decoration: none;
 }

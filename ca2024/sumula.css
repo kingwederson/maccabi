@@ -2,15 +2,13 @@ div#alerta{
     display:none;
 }
 table.quali tr:nth-child(2) td,table.quali tr:nth-child(3) td{
-    background: blue;
-    color:white;
+    background: #ddf;
 }
 table.quali tr:nth-child(4) td,
 table.quali tr:nth-child(5) td,
 table.quali tr:nth-child(6) td,
 table.quali tr:nth-child(7) td{
-    background: red;
-    color:white;
+    background: #fdd;
 }
 table.quali tr:nth-child(2) td:nth-child(1)::after{
     content: '1';
@@ -54,4 +52,20 @@ tr.sempre th{
     position:sticky;
     top:0px;
     background:white;
+}
+table.jogos td.cinza{
+    background-color: gray;
+    color: white;
+}
+table.jogos td.vit{
+    background-color: green;
+    color: white;
+}
+table.jogos td.emp{
+    background-color: yellow;
+    color: black;
+}
+table.jogos td.der{
+    background-color: red;
+    color: white;
 }

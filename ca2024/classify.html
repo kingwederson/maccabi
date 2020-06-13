@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.imgur.com/dNvrUEH.png">
+    <title>Copa América 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"><!--Texto Antigo-->
+    <link href="https://fonts.googleapis.com/css2?family=Copse&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://kingwederson.github.io/maccabi/ca2024/ca2024.css?id=6" rel="stylesheet">
+    <link href="sumula.css?id=1" rel="stylesheet">
+    <link href="img.css?id=1" rel="stylesheet">
+    <script src="classify.js"></script>
+    <style>
+        div#alerta{
+            position:fixed;
+            top:10%;
+            left:5%;
+            width:80%;
+            font-size:20pt;
+            background-color: red;
+            font-family:'Arial';
+            color:white;
+            text-align:center;
+            border-radius:20px;
+            padding:5%;
+        }
+        div#caderno{
+            columns: 1200px !important;
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body onload="classifica()">
+    <div class="nivelsup">
+        <header>Copa América</header>
+    </div>
+
+    <div class="nivelsup">
+        2024
+    </div>
+
+    <div id="alerta">
+        Conecte-se a internet para conseguir visualizar corretamente o jornal. Sem conexão com a internet as imagens e estilos não estarão disponíveis.
+    </div>
+
+    <div class="nivelsup" id="caderno">
+        <article>
+            <h1>Jogos</h1>
+            <h2>Grupo A</h2>
+            <table class="jogos">
+                <thead>
+                    <tr>
+                        <th>equipe</th>
+                        <th><img class="argentina mini"></th>
+                        <th><img class="bolivia mini"></th>
+                        <th><img class="colombia mini"></th>
+                        <th><img class="equador mini"></th>
+                        <th><img class="eua mini"></th>
+                        <th><img class="paraguai mini"></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Argentina</td>
+                    <td class="cinza"></td>
+                    <td class="vit">3-1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bolívia</td>
+                    <td class="der">1-3</td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Colômbia</td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="emp">2-2</td>
+                </tr>
+                <tr>
+                    <td>Equador</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td class="der">0-4</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Estados Unidos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td class="vit">4-0</td>
+                </tr>
+                <tr>
+                    <td>Paraguai</td>
+                    <td></td>
+                    <td></td>
+                    <td class="emp">2-2</td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                </tr>
+                <caption>Jogos em turno único mostrado sob a perspectiva do nome escrito por extenso.</caption>
+            </table>
+
+            <h2>Grupo B</h2>
+            <table class="jogos">
+                <thead>
+                    <tr>
+                        <th>equipe</th>
+                        <th><img class="brasil mini"></th>
+                        <th><img class="chile mini"></th>
+                        <th><img class="mexico mini"></th>
+                        <th><img class="peru mini"></th>
+                        <th><img class="uruguai mini"></th>
+                        <th><img class="venezuela mini"></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Brasil</td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="vit">2-1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Chile</td>
+                    <td ></td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td class="emp">0-0</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>México</td>
+                    <td class="der">1-2</td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Peru</td>
+                    <td></td>
+                    <td class="emp">0-0</td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Uruguai</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Venezuela</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="cinza"></td>
+                </tr>
+                <caption>Jogos em turno único mostrado sob a perspectiva do nome escrito por extenso.</caption>
+            </table>
+        </article>
+
+        <article>
+            <h1>Classificação</h1>
+            <h2>Grupo A</h2>
+            <table class="quali">
+                <tr>
+                    <th style="width:7px;">#</th>
+                    <th>Equipe</th>
+                    <th>P</th>
+                    <th>J</th>
+                    <th>V</th>
+                    <th>E</th>
+                    <th>D</th>
+                    <th>sG</th>
+                    <th>G+</th>
+                    <th>G-</th>
+                </tr>
+                <tr id="eq14R">
+                    <td><!--Posição--></td>
+                    <td>Estados&nbsp;Unidos</td>
+                    <td id="eq14P">0</td><!--pontos-->
+                    <td id="eq14J">0</td><!--jogos-->
+                    <td id="eq14V">0</td><!--vitórias-->
+                    <td id="eq14E">0</td><!--empates-->
+                    <td id="eq14D">0</td><!--derrotas-->
+                    <td id="eq14Gs">0</td><!--saldo-->
+                    <td id="eq14Gp">0</td><!--gols pró-->
+                    <td id="eq14Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq10R">
+                    <td><!--Posição--></td><!--Posição-->
+                    <td>Argentina</td>
+                    <td id="eq10P">0</td><!--pontos-->
+                    <td id="eq10J">0</td><!--jogos-->
+                    <td id="eq10V">0</td><!--vitórias-->
+                    <td id="eq10E">0</td><!--empates-->
+                    <td id="eq10D">0</td><!--derrotas-->
+                    <td id="eq10Gs">0</td><!--saldo-->
+                    <td id="eq10Gp">0</td><!--gols pró-->
+                    <td id="eq10Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq12R">
+                    <td><!--Posição--></td>
+                    <td>Colômbia</td>
+                    <td id="eq12P">0</td><!--pontos-->
+                    <td id="eq12J">0</td><!--jogos-->
+                    <td id="eq12V">0</td><!--vitórias-->
+                    <td id="eq12E">0</td><!--empates-->
+                    <td id="eq12D">0</td><!--derrotas-->
+                    <td id="eq12Gs">0</td><!--saldo-->
+                    <td id="eq12Gp">0</td><!--gols pró-->
+                    <td id="eq12Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq15R">
+                    <td><!--Posição--></td>
+                    <td>Paraguai</td>
+                    <td id="eq15P">0</td><!--pontos-->
+                    <td id="eq15J">0</td><!--jogos-->
+                    <td id="eq15V">0</td><!--vitórias-->
+                    <td id="eq15E">0</td><!--empates-->
+                    <td id="eq15D">0</td><!--derrotas-->
+                    <td id="eq15Gs">0</td><!--saldo-->
+                    <td id="eq15Gp">0</td><!--gols pró-->
+                    <td id="eq15Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq11R">
+                    <td><!--Posição--></td><!--Posição-->
+                    <td>Bolívia</td>
+                    <td id="eq11P">0</td><!--pontos-->
+                    <td id="eq11J">0</td><!--jogos-->
+                    <td id="eq11V">0</td><!--vitórias-->
+                    <td id="eq11E">0</td><!--empates-->
+                    <td id="eq11D">0</td><!--derrotas-->
+                    <td id="eq11Gs">0</td><!--saldo-->
+                    <td id="eq11Gp">0</td><!--gols pró-->
+                    <td id="eq11Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq13R">
+                    <td><!--Posição--></td>
+                    <td>Equador</td>
+                    <td id="eq13P">0</td><!--pontos-->
+                    <td id="eq13J">0</td><!--jogos-->
+                    <td id="eq13V">0</td><!--vitórias-->
+                    <td id="eq13E">0</td><!--empates-->
+                    <td id="eq13D">0</td><!--derrotas-->
+                    <td id="eq13Gs">0</td><!--saldo-->
+                    <td id="eq13Gp">0</td><!--gols pró-->
+                    <td id="eq13Gn">0</td><!--gols contra-->
+                </tr>
+            </table>
+
+            <h2>Grupo B</h2>
+            <table class="quali">
+                <tr>
+                    <th style="width:7px;">#</th>
+                    <th>Equipe</th>
+                    <th>P</th>
+                    <th>J</th>
+                    <th>V</th>
+                    <th>E</th>
+                    <th>D</th>
+                    <th>sG</th>
+                    <th>G+</th>
+                    <th>G-</th>
+                </tr>
+                <tr id="eq16R">
+                    <td><!--posição--></td>
+                    <td>Brasil</td>
+                    <td id="eq16P">0</td><!--pontos-->
+                    <td id="eq16J">0</td><!--jogos-->
+                    <td id="eq16V">0</td><!--vitórias-->
+                    <td id="eq16E">0</td><!--empates-->
+                    <td id="eq16D">0</td><!--derrotas-->
+                    <td id="eq16Gs">0</td><!--saldo-->
+                    <td id="eq16Gp">0</td><!--gols pró-->
+                    <td id="eq16Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq17R">
+                    <td><!--posição--></td>
+                    <td>Chile</td>
+                    <td id="eq17P">0</td><!--pontos-->
+                    <td id="eq17J">0</td><!--jogos-->
+                    <td id="eq17V">0</td><!--vitórias-->
+                    <td id="eq17E">0</td><!--empates-->
+                    <td id="eq17D">0</td><!--derrotas-->
+                    <td id="eq17Gs">0</td><!--saldo-->
+                    <td id="eq17Gp">0</td><!--gols pró-->
+                    <td id="eq17Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq19R">
+                    <td><!--posição--></td>
+                    <td>Peru</td>
+                    <td id="eq19P">0</td><!--pontos-->
+                    <td id="eq19J">0</td><!--jogos-->
+                    <td id="eq19V">0</td><!--vitórias-->
+                    <td id="eq19E">0</td><!--empates-->
+                    <td id="eq19D">0</td><!--derrotas-->
+                    <td id="eq19Gs">0</td><!--saldo-->
+                    <td id="eq19Gp">0</td><!--gols pró-->
+                    <td id="eq19Gn">0</td><!--gols contra-->
+                </tr>
+                
+                <tr id="eq20R">
+                    <td><!--posição--></td>
+                    <td>Uruguai</td>
+                    <td id="eq20P">0</td><!--pontos-->
+                    <td id="eq20J">0</td><!--jogos-->
+                    <td id="eq20V">0</td><!--vitórias-->
+                    <td id="eq20E">0</td><!--empates-->
+                    <td id="eq20D">0</td><!--derrotas-->
+                    <td id="eq20Gs">0</td><!--saldo-->
+                    <td id="eq20Gp">0</td><!--gols pró-->
+                    <td id="eq20Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq21R">
+                    <td><!--posição--></td>
+                    <td>Venezuela</td>
+                    <td id="eq21P">0</td><!--pontos-->
+                    <td id="eq21J">0</td><!--jogos-->
+                    <td id="eq21V">0</td><!--vitórias-->
+                    <td id="eq21E">0</td><!--empates-->
+                    <td id="eq21D">0</td><!--derrotas-->
+                    <td id="eq21Gs">0</td><!--saldo-->
+                    <td id="eq21Gp">0</td><!--gols pró-->
+                    <td id="eq21Gn">0</td><!--gols contra-->
+                </tr>
+                <tr id="eq18R">
+                    <td><!--posição--></td>
+                    <td>México</td>
+                    <td id="eq18P">0</td><!--pontos-->
+                    <td id="eq18J">0</td><!--jogos-->
+                    <td id="eq18V">0</td><!--vitórias-->
+                    <td id="eq18E">0</td><!--empates-->
+                    <td id="eq18D">0</td><!--derrotas-->
+                    <td id="eq18Gs">0</td><!--saldo-->
+                    <td id="eq18Gp">0</td><!--gols pró-->
+                    <td id="eq18Gn">0</td><!--gols contra-->
+                </tr>
+            </table>
+            </article>
+
+    </div><!--FIM DO CADERNO-->
+
+    
+</body>
+</html>
